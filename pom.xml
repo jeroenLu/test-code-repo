@@ -10,11 +10,10 @@
 	</parent>
 	<groupId>com.docker-jenkins-rancher-integration</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<revision>0.0.2</revision>
 		<java.version>11</java.version>
 	</properties>
 
@@ -53,11 +52,7 @@
 				<version>1.18.0</version>
 				<configuration>
 					<gitFlowConfig>
-						<productionBranch>master</productionBranch>
 						<developmentBranch>master</developmentBranch>
-						<featureBranchPrefix>feature/</featureBranchPrefix>
-						<releaseBranchPrefix>release/</releaseBranchPrefix>
-						<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
 			</plugin>
